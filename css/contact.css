@@ -99,37 +99,43 @@ img {
     margin-bottom: 30px;
     margin-left: 40px;
     margin-top: 80px;
+    color: #707070;
  }
-   .contact-heading1 {
+.contact-heading1 {
     font-size:  24px;
     font-weight: bold;
     margin-left: 40px;
+    color: #707070;
 }
 /* gives the label of input a margin */
 label { 
     margin-left: 40px;
+    color: #707070;
 }
+
 /* gives the input section size*/
 #fullname, #email{
     width: 520px;
     height: 30px;
     margin-left: 40px;
+    color: #707070;
 }
 #message {
     width: 520px;
     height: 140px;
     margin-left: 40px;
+    color: #707070;
 }
 /* gives the button backgroud border style size marign color font size */
 button {
-    background-color: #000000;
+    background-color:#570E7C;
     border: none;
     width: 40px;
     height: 30px;
     margin-top: 15px;
     margin-left: 40px;
     margin-bottom: 30px;
-    color: #c78c06;
+    color:#93BF34;
     text-align: center;
     font-size: 16px;
     display: inline-block;
@@ -141,6 +147,7 @@ button {
     font-weight: bold;
     margin-left: 40px;
     margin-top: 30px;
+    color: #707070;
 }
 table {
     width: 1050px;
@@ -150,6 +157,7 @@ table {
     border-spacing: 0;
     margin-bottom: 20px;
     margin-left: 40px;
+    color: #707070;
 }
 table td ,th {
     padding: 10px 30px;
@@ -157,7 +165,7 @@ table td ,th {
     border-right: 1px solid;
     }
 th {
-    background-color: #ffebac;
+    background-color:#EEEAF0;
 }
 /* gives the loction heading font size and margin */
 .loaction-heading {
@@ -175,6 +183,7 @@ iframe{
     margin-left: 565px;
     width: 525px;
     height: 320px;
+    padding: 30px;
 }
 /* footer */
 .footer {
