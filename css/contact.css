@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+     font-family:Helvetica Neue;
+     background:  white;
+    
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img {
+    border: none;
+}
+
+/* wrap the homepage */
+@media screen and (min-width: 1200px) {
+    .wrap {
+    background-color: white;
+    height: 1300px;
+    margin: 0 auto;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+
+    }
+}
+/* topsection cantainer */
+.container topsection {   
+    width: 95%;
+    height: 5%;
+    font-size: 14px;
+    line-height: 100px;
+    float: left;
+    cursor: pointer;
+    display: flex;
+}
+/* logo position and size */
+.logo {
+   width: 250px;
+   height: 100px;
+   float: left;
+   margin-top:22.5px;
+   margin-left: 30px;
+   overflow: hidden;
+   position: relative;
+}
+.logo img {
+    width:50%;
+    height:40%;
+    position: absolute;
+    top:0;
+}
+/* nav position ,align and size */
+.dropdown-content {  
+    float: left;
+    align-content:space-between;  
+}
+.dropdown-content  li {
+    float: left;
+}
+.dropdown-content  a {
+    color:#707070 ;
+    margin: 30px;
+    padding: 20px;   
+}
+.material-symbols-outlined {
+    color: #707070;
+    margin: 0 3.6px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* nav hover */ 
+.dropdown-content a:hover {
+    background-color:#570E7C;
+    color: white;
+}
+.material-symbols-outlined:hover {
+    background-color:#570E7C;
+    color:white;  
+}
+.button:hover {
+    background-color:#570E7C;
+    color: white;
+}
+/* gives the contact us section's headings font size and margin */
+.contactus-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: 80px;
+ }
+   .contact-heading1 {
+    font-size:  24px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+/* gives the label of input a margin */
+label { 
+    margin-left: 40px;
+}
+/* gives the input section size*/
+#fullname, #email{
+    width: 520px;
+    height: 30px;
+    margin-left: 40px;
+}
+#message {
+    width: 520px;
+    height: 140px;
+    margin-left: 40px;
+}
+/* gives the button backgroud border style size marign color font size */
+button {
+    background-color: #000000;
+    border: none;
+    width: 40px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #c78c06;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+/* gives the hours section's headings, td, th font size weight  border style  padding background color  */
+.table-heading {
+    font-size: 24px;
+    display: inline;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+table {
+    width: 1050px;
+    height: 120px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+table td ,th {
+    padding: 10px 30px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    }
+th {
+    background-color: #ffebac;
+}
+/* gives the loction heading font size and margin */
+.loaction-heading {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -570px;
+    margin-right: 500px;
+}
+/* gives the map size and float */
+iframe{
+    position: absolute;
+    float: right;
+    margin-top: -530px;
+    margin-left: 565px;
+    width: 525px;
+    height: 320px;
+}
+/* footer */
+.footer {
+    padding: 10px;
+    height: 10%;
+    text-align: center;
+    background-color:#EEEAF0 ;
+    margin-top: 20px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding:3px;
+    font-size: 20px;
+    width: 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect */
+  .fa:hover {
+    background-color:#570E7C;
+  }
+  
+  /* Set a specific color for facebook and twitter */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #570E7C;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background:#93BF34;
+    color: white;
+  }
+/* footer fonts */
+p {
+    background-color:#EEEAF0;
+    color: #707070;
+    font-size: 12px;
+    
+}
